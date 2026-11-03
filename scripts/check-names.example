@@ -1,0 +1,7 @@
+# Copy to .check-names (gitignored) and add one exact name per line.
+# These are matched case-insensitively as a regular expression.
+#
+# internal-hostname
+# internal-service
+# internal-domain.tld
+# personal-username

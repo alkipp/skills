@@ -1,0 +1,5 @@
+# Local list of names that must never be published.
+.check-names
+
+# OS noise
+.DS_Store
