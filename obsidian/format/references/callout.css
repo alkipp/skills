@@ -1,0 +1,12 @@
+.hint{display:flex;gap:12px;align-items:flex-start;padding:13px 15px;border:1px solid color-mix(in srgb,var(--hint) 20%,var(--background-modifier-border));background:color-mix(in srgb,var(--hint) 6%,var(--background-primary));border-radius:14px;color:var(--text-normal);font-size:13px;line-height:1.55}
+.hint-icon{flex:0 0 auto;width:30px;height:30px;border-radius:9px;display:flex;align-items:center;justify-content:center;background:color-mix(in srgb,var(--hint) 12%,transparent);color:color-mix(in srgb,var(--hint) 88%,var(--text-normal))}
+.hint-icon svg{width:17px;height:17px;display:block}
+.hint-title{font-size:10px;font-weight:700;letter-spacing:.55px;text-transform:uppercase;color:color-mix(in srgb,var(--hint) 75%,var(--text-muted));margin:0 0 2px}
+.hint-body{color:var(--text-normal)}
+.hint-body code{background:color-mix(in srgb,var(--hint) 8%,var(--background-secondary));padding:1px 5px;border-radius:4px;font-size:12px}
+.hint-body ul{margin:6px 0 0 18px;padding:0}
+.hint-body li{margin:4px 0}
+.hint.info{--hint:#5B8DEF}
+.hint.tip{--hint:#4FA37A}
+.hint.warn{--hint:#D9A441}
+.hint.danger{--hint:#D96C6C}
