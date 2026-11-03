@@ -11,6 +11,8 @@ Codex, and anything else that reads `SKILL.md`.
 |---|---|
 | [`ki/humor`](ki/humor/SKILL.md) | Tone in chat: forms that work in text, forms that fail without a voice, four hard limits, and a dial the user controls. |
 | [`media/bild-prompt`](media/bild-prompt/SKILL.md) | Writing image prompts: six building blocks in order, length and language rules, negative prompts per model family, one variable per iteration. |
+| [`security/cve-audit`](security/cve-audit/SKILL.md) | Finding, ranking and fixing CVEs: sources, scan commands, no-lockfile trap, Yarn 1 lockfile refresh, reachability over score. |
+| [`obsidian/format`](obsidian/format/SKILL.md) | Consistent vault pages: H2 structure, lead lines, `viz` tables and cards, theme-aware colours, with the CSS in `references/`. |
 
 ## Install
 
@@ -40,8 +42,10 @@ Every push must pass the safety check:
 scripts/check-public.sh
 ```
 
-It fails on host names, private IP ranges, server and work directory paths, and
-private service names. If it fails, edit the content — not the pattern.
+It fails on private IP ranges, absolute server and home paths, private keys and
+token shapes. The list of private names lives in `.check-names`, which is
+gitignored — see `scripts/check-names.example`. If the check fails, edit the
+content, not the pattern.
 
 ## License
 
