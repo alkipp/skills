@@ -4,6 +4,17 @@ All notable changes to this repository. Format based on
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), versioning follows
 [Semantic Versioning 2.0.0](https://semver.org/).
 
+## [0.2.0] - 2026-11-03
+
+### Added
+
+- **`security/cve-audit`**: sources and their limits, seven-step workflow,
+  scan commands per ecosystem, the no-lockfile trap, Yarn 1 lockfile refresh,
+  prioritisation by KEV and reachability, fix rules.
+- **`obsidian/format`**: page structure, `viz` tables with one root node,
+  hint and warning cards, code cards, theme-aware colours — including the three
+  CSS files under `references/`.
+
 ## [0.1.0] - 2026-11-03
 
 ### Added
